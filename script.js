@@ -99,6 +99,7 @@ function checkAnswers() {
     }
     alert("You got " + numCorrect + " out of " + questions.length + " correct!");
     index = 0;
+    userAnswers = [];
     showNextQuestion();
 }
 
